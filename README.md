@@ -9,7 +9,3 @@ This repository contains the open source PHP SDK that allows you to access the I
 ## Installation
 
 The IBM Cloud PHP SDK can be installed with [Composer](https://getcomposer.org/). Run this command:
-
-```sh
-composer require /
-```
