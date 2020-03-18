@@ -1,0 +1,15 @@
+{
+    "name": "dsi9/ibm-cloud",
+    "keywords": ["ibm", "watson", "assistant"],
+    "type": "library",
+    "description": "Ibm Cloud SDK",
+    "authors": [
+        {
+            "name": "David Santos",
+            "email": "david@dsinove.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    }
+}
