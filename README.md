@@ -1,4 +1,4 @@
-# Ibm Cloud SDK for PHP
+# IBM Cloud SDK for PHP
 
 [![Build Status](https://img.shields.io/travis)](https://travis-ci.org/)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/)](https://scrutinizer-ci.com/g/)
