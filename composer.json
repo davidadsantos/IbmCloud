@@ -1,15 +1,30 @@
 {
-    "name": "dsi9/ibm-cloud",
-    "keywords": ["ibm", "watson", "assistant"],
-    "type": "library",
-    "description": "Ibm Cloud SDK",
-    "authors": [
-        {
-            "name": "David Santos",
-            "email": "david@dsinove.com.br"
-        }
-    ],
-    "require": {
-        "php": "^7.0"
+  "name": "dsi9/ibm-cloud",
+  "keywords": [
+    "ibm",
+    "watson",
+    "assistant"
+  ],
+  "type": "library",
+  "description": "Ibm Cloud SDK",
+  "authors": [
+    {
+      "name": "David Santos",
+      "email": "david@dsinove.com.br"
     }
+  ],
+  "require": {
+    "php": "^7.3",
+    "ext-json": "*",
+    "illuminate/contracts": "^7.2",
+    "illuminate/cache": "^7.2",
+    "illuminate/http": "^7.2",
+    "illuminate/support": "^7.2",
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "DsIbmCloud\\": "src/DsIbmCloud/"
+    }
+  }
 }
