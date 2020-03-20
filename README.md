@@ -30,6 +30,6 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
 ## Contributing
-Esta é minha primeira contribuição 
-Quem puder ajudar ficarei muito agradecido
-David Santos - david@dsinove.com.br
+Esta é minha primeira contribuição \
+Quem puder contribuir ficarei muito agradecido 😁 \
+David Santos - david@dsinove.com.br 
