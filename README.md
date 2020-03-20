@@ -1,6 +1,7 @@
 # IBM Cloud SDK for PHP (Alpha)
 
 [![Latest Stable Version](https://img.shields.io/badge/Alpha-0.0.0-red.svg)](https://packagist.org/packages/)
+![PHP Version](https://img.shields.io/packagist/php-v/dsinove/IbmCloud)
 
 This repository contains the open source PHP SDK that allows you to access the IBM Cloud from your PHP app.
 
