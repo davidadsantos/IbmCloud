@@ -2,10 +2,9 @@
 
 namespace DsIbmCloud\Watson\Assistant\Context;
 
-use DsIbmCloud\Contracts\Factory as FactoryContract;
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
-class Context implements ArrayableContract, FactoryContract
+class Context implements ArrayableContract
 {
     private $global;
     private $skills;

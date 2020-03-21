@@ -2,11 +2,10 @@
 
 namespace DsIbmCloud\Watson\Assistant\Output;
 
-use DsIbmCloud\Contracts\Factory as FactoryContract;
 use DsIbmCloud\Contracts\Watson\Assistant\Output\Generic as GenericContract;
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
-class Output implements ArrayableContract, FactoryContract
+class Output implements ArrayableContract
 {
     /**
      * @var GenericContract[]

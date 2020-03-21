@@ -2,7 +2,7 @@
 
 namespace DsIbmCloud\Watson\Assistant\Input;
 
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
 class Options implements ArrayableContract
 {
@@ -24,7 +24,7 @@ class Options implements ArrayableContract
         return $this->returnContext;
     }
 
-    public function toArray()
+    public function toArray(): array
     {
         return [
             'return_context' => $this->isReturnContext()

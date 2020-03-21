@@ -2,7 +2,7 @@
 
 namespace DsIbmCloud\Watson\Assistant\Output\Options;
 
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
 class Option implements ArrayableContract
 {

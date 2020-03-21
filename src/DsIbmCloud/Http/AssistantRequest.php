@@ -3,7 +3,6 @@
 namespace DsIbmCloud\Http;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Message\ResponseInterface;
 
 class AssistantRequest

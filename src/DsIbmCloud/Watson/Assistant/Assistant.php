@@ -40,6 +40,7 @@ class Assistant
      */
     public function send($data, string $sessionId = null): AssistantData
     {
+
         $data = $data instanceof Data ? $data : Data::create(Input::create($data));
 
         $data->setOutput(null);

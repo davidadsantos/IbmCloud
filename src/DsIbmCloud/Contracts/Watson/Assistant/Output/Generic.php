@@ -3,7 +3,7 @@
 
 namespace DsIbmCloud\Contracts\Watson\Assistant\Output;
 
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
 interface Generic extends ArrayableContract
 {

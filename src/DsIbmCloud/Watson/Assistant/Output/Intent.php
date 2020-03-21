@@ -2,7 +2,7 @@
 
 namespace DsIbmCloud\Watson\Assistant\Output;
 
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
 class Intent implements ArrayableContract
 {

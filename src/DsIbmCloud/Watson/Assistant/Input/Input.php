@@ -2,7 +2,7 @@
 
 namespace DsIbmCloud\Watson\Assistant\Input;
 
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
 class Input implements ArrayableContract
 {
@@ -12,7 +12,7 @@ class Input implements ArrayableContract
     public function __construct(?string $text = null)
     {
         $this->text = $text;
-        $this->options = new Options();
+        $this->options = Options::create();
     }
 
     public function getText(): ?string

@@ -2,7 +2,7 @@
 
 namespace DsIbmCloud\Watson\Assistant;
 
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 
 class AssistantData implements ArrayableContract
 {
@@ -37,7 +37,7 @@ class AssistantData implements ArrayableContract
         return $this->data;
     }
 
-    public function toArray()
+    public function toArray(): array
     {
         return [
             'session_id' => $this->getSessionId(),

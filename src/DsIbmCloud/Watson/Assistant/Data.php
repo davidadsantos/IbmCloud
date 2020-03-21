@@ -2,13 +2,12 @@
 
 namespace DsIbmCloud\Watson\Assistant;
 
-use DsIbmCloud\Contracts\Factory as FactoryContract;
+use DsIbmCloud\Contracts\Arrayable as ArrayableContract;
 use DsIbmCloud\Watson\Assistant\Context\Context;
 use DsIbmCloud\Watson\Assistant\Input\Input;
 use DsIbmCloud\Watson\Assistant\Output\Output;
-use Illuminate\Contracts\Support\Arrayable as ArrayableContract;
 
-class Data implements ArrayableContract, FactoryContract
+class Data implements ArrayableContract
 {
     private $input;
     private $output;
